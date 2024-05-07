@@ -1,0 +1,13 @@
+public class Session3 {
+    public static void main(String[] args) {
+
+        int m1 = 10;
+        int m2 = 15;
+
+
+        int temp = m1;
+        m1 = m2;
+        m2 = temp;
+        System.out.println("m1 = " + m1 + " and m2 = " + m2);
+    }
+}
