@@ -8,6 +8,6 @@ public class Name {
         char c4 = '\u092E';
         char c5 = '\u092F';
 
-        System.out.println(""+c1+c2+c3+c4+c5);
+        System.out.println(""+c1 +c2 + c3+c4+c5);
     }
 }
