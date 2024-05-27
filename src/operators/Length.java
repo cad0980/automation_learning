@@ -7,9 +7,9 @@ public class Length {
        double m = i * c;
 
         System.out.println("The length is " + i + " inches");
-        System.out.println(" 1 inch = " + c + " meters");
+        System.out.printf("1 inch = %.2f meters \n",c);
         System.out.println("Therefore 5 inches = " + m + " meters");
-
+        // CRLF
 
     }
 }
