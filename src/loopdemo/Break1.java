@@ -13,5 +13,6 @@ public class Break1 {
         }
 
     }
+        System.out.println("While loop terminated.");
     }
     }
