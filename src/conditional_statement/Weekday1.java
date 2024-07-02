@@ -1,9 +1,18 @@
 package conditional_statement;
+
+import java.util.Scanner;
+
 public class Weekday1 {
     public static void main(String[] args) {
-        int daynum =2;
-        String dayname="";
-        switch(daynum){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Your number : ");
+        int day = scan.nextInt();
+        System.out.println(dayname(day));
+
+    }
+        public static String dayname(int day){
+        String dayname ="";
+        switch(day){
             case 1: dayname="Monday";break;
             case 2: dayname="Tuesday";break;
             case 3: dayname="Wednesday";break;
@@ -13,6 +22,7 @@ public class Weekday1 {
             case 7: dayname="Sunday";break;
             default: dayname="Invalid Day";
         }
-        System.out.println(dayname);
+
+        return dayname;
     }
 }
